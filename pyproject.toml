@@ -1,0 +1,21 @@
+
+# Project metadata and dependency configuration for uv.
+
+[project]
+name = "multimodal-tutor-agent"
+version = "0.1.0"
+description = "A multimodal learning assistant with OpenAI and LangSmith"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "streamlit>=1.40.0",
+    "openai>=1.68.0",
+    "langsmith>=0.3.0",
+    "python-dotenv>=1.0.1",
+    "Pillow>=10.0.0",
+    "pdf2image>=1.17.0",
+    "pytesseract>=0.3.13",
+]
+
+[tool.uv]
+package = false
